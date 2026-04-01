@@ -257,8 +257,8 @@ python -m src.evaluation.evaluate \
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-repo/multi-source-rag-assistant.git
-cd multi-source-rag-assistant
+git clone https://github.com/cngchis/bot-sc-agentic-rag.git
+cd bot-sc-agentic-rag
 ```
 
 ### 2. Configure environment variables
@@ -267,6 +267,7 @@ cd multi-source-rag-assistant
 # backend/.env
 OLLAMA_HOST=http://ollama:11434
 PINECONE_API_KEY=your_pinecone_api_key
+INDEX-PINECONE=techcombank-rag
 PINECONE_REGION=us-east-1
 TAVILY_API_KEY=your_tavily_api_key
 PDF_DIR=./data/pdf
@@ -294,18 +295,17 @@ docker exec -it tcb_rag_ollama ollama pull llama3.1:8b
 ```bash
 # Load PDF documents and CSV FAQs into Pinecone
 docker exec -it tcb_rag_backend bash
-python -m src.ingestion.pdf_loader
-python -m src.ingestion.csv_loader
+python -m src.vectorstore.pinecone_store.py
 ```
 
 ### 5. Access the application
 
-| Service | URL |
-|---|---|
-| 🌐 Frontend | http://localhost:5173 |
-| ⚡ Backend API | http://localhost:8000 |
+| Service               | URL                        |
+|-----------------------|----------------------------|
+| 🌐 Frontend           | http://localhost:5173      |
+| ⚡ Backend API         | http://localhost:8000      |
 | 📖 API Docs (Swagger) | http://localhost:8000/docs |
-| 🤖 Ollama | http://localhost:11434 |
+| 🤖 Ollama             | http://localhost:11434     |
 
 ---
 
@@ -315,8 +315,8 @@ python -m src.ingestion.csv_loader
 
 ```bash
 cd backend
-conda create -n tcb_arag python=3.10
-conda activate tcb_arag
+conda create -n [name_env] python=3.10
+conda activate [name_env]
 pip install -r requirements.txt
 
 # Start Ollama separately
@@ -409,12 +409,12 @@ class CustomEmbedding(Embeddings):
         return _model.encode([text])[0].tolist()
 ```
 
-| Property | Value |
-|---|---|
-| Model | AITeamVN/Vietnamese_Embedding_v2 |
-| Dimension | 768 |
-| Language | Vietnamese (optimized) |
-| Vector Store | Pinecone (cosine similarity) |
+| Property     | Value                            |
+|--------------|----------------------------------|
+| Model        | AITeamVN/Vietnamese_Embedding_v2 |
+| Dimension    | 768                              |
+| Language     | Vietnamese (optimized)           |
+| Vector Store | Pinecone (cosine similarity)     |
 
 ---
 
