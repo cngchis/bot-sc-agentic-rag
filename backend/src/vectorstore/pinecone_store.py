@@ -4,7 +4,7 @@ from langchain.embeddings.base import Embeddings
 from sentence_transformers import SentenceTransformer
 from src.utils.helper import get_env
 
-# ── Custom Embedding ────────────────────────────────
+# Custom Embedding
 _model = SentenceTransformer("AITeamVN/Vietnamese_Embedding_v2")
 
 class CustomEmbedding(Embeddings):
