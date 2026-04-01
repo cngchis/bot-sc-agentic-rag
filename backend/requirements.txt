@@ -19,4 +19,7 @@ ollama==0.6.1
 fastapi==0.135.2
 langchain-ollama==1.0.1
 tavily==1.1.0
+rouge-score==0.1.2
+bert-score==0.3.13
+nltk==3.9.4
 -e .
