@@ -419,7 +419,6 @@ class CustomEmbedding(Embeddings):
 ---
 
 ## Docker Commands
-
 ```bash
 # View running containers
 docker-compose ps
