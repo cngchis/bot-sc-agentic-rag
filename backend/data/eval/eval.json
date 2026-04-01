@@ -1,0 +1,12 @@
+[
+  {
+    "query": "Chào bạn, nếu tôi muốn tăng hạn mức chuyển khoản ngân hàng thì phải làm sao?",
+    "reference": "Cách để nâng hạn mức chuyển khoản qua Techcombank Mobile Hạn mức chuyển khoản của bạn được mặc định là 500.000.000VNĐ/ngày trên Techcombank Mobile, áp dụng với chuyển nhanh 24/7 và chuyển liên ngân hàng. Trong trường hợp muốn chuyển với số tiền lớn hơn nhưng không vượt quá 5 tỷ VNĐ, bạn có thể đăng nhập Techcombank Mobile để thay đổi hạn mức. Hạn mức mới thay đổi sẽ có hiệu lực trong vòng 30 ngày, sau đó sẽ trở lại hạn mức mặc định 500 triệu đồng/ngày.",
+    "relevant_docs": ["584ba117-a8b2-4b98-8225-58cdad4102c5", "12404efc-e6f2-4e81-99cd-970ec53b6975", "c225382d-0000-44c2-b514-90183aede994"]
+  },
+  {
+    "query": "Cho tôi hỏi nếu tôi quên mã PIN thì phải làm sao?",
+    "reference": "Quý khách có thể đến bất kỳ điểm giao dịch của Techcombank để đề nghị cấp lại PIN hoặc gửi yêu cầu cấp lại PIN qua dịch vụ F@st i-bank. Phí cấp lại PIN được Techcombank quy định theo từng thời kỳ. Biểu phí cấp lại pin dành cho thẻ Thanh toán/thẻ tín dụng tại đây",
+    "relevant_docs": ["c67a65ec-fcb6-46c7-90cd-387059e4f0ce", "2fcde635-c1f8-4309-87ed-e68ba0e09a47", "dbf54c98-dd99-41b7-af75-2ea6b09c98a3"]
+  }
+]

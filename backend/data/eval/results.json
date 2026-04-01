@@ -1,0 +1,15 @@
+{
+  "dataset": "data/eval/eval.json",
+  "num_samples": 2,
+  "k": 3,
+  "metrics": {
+    "precision@3": 0.6667,
+    "recall@3": 0.6667,
+    "mrr": 0.75,
+    "bleu": 0.375,
+    "rouge_rouge1": 0.7077,
+    "rouge_rouge2": 0.5298,
+    "rouge_rougeL": 0.5623,
+    "bertscore": 0.8201
+  }
+}
