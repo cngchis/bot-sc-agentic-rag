@@ -206,10 +206,12 @@ docker-compose up -d
 
 ### 4. Ingest knowledge base
 
+> Note: Make sure you are logged in to Pinecone and have configured your API key before running the ingestion process.
+
 ```bash
 # Load PDF documents and CSV FAQs into Pinecone
 docker exec -it bank_rag_backend bash
-python -m src.vectorstore.pinecone_store
+python -m src.ingestion.csv_loader
 ```
 
 ### 5. Access the application
