@@ -31,7 +31,7 @@ def node_check_relevance(state: GraphState) -> GraphState:
     if score is None:
         score = 0.0
 
-    is_relevant = "Yes" if score >= 0.7 else "No"
+    is_relevant = "Yes" if score >= 0.6 else "No"
 
     return {**state, "is_relevant": is_relevant}
 
