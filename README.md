@@ -40,12 +40,11 @@ With a self-corrective loop, the agent evaluates context relevance and automatic
 2. 🏗️ [Architecture](#architecture)
 3. ✨ [Features](#features)
 4. 🛠️ [Tech Stack](#tech-stack)
-5. 📁 [Project Structure](#project-structure)
-6. ⚙️ [System Requirements](#system-requirements)
-7. 🚀 [Quick Start](#quick-start)
-8. 🔌 [API Reference](#api-reference)
-9. 🧠 [Embedding Model](#embedding-model)
-10. 📄 [License](#license)
+5. ⚙️ [System Requirements](#system-requirements)
+6. 🚀 [Quick Start](#quick-start)
+7. 🔌 [API Reference](#api-reference)
+8. 🧠 [Embedding Model](#embedding-model)
+9. 📄 [License](#license)
 
 ---
 
