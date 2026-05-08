@@ -1,0 +1,12 @@
+{
+  "dataset": "data/json/eval.json",
+  "num_samples": 52,
+  "metrics": {
+    "bleu": 0.6579,
+    "rouge_rouge1": 0.8294,
+    "rouge_rouge2": 0.7679,
+    "rouge_rougeL": 0.7945,
+    "bertscore": 0.9155,
+    "avg_latency_ms": 6719.89
+  }
+}
