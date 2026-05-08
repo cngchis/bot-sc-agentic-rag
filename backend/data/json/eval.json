@@ -1,0 +1,210 @@
+[
+  {
+    "query": "Thẻ TCB của mình bị nuốt ở ATM ngân hàng khác thì liên hệ ai?",
+    "reference": "Quý khách có thể gọi số Hotline: 1800588822 hoặc đến bất kỳ điểm giao dịch nào của Techcombank để được hướng dẫn hỗ trợ."
+  },
+  {
+    "query": "Mình đang ở nước ngoài mà thẻ không thanh toán được, phải làm gì?",
+    "reference": "Có nhiều lý do khiến thẻ không giao dịch được. Quý khách vui lòng liên hệ Hotline của Techcombank 24/7 — số điện thoại ở mặt sau thẻ để được hỗ trợ kiểm tra tình trạng thẻ."
+  },
+  {
+    "query": "CVV2 là số mấy trên thẻ Visa vậy?",
+    "reference": "CVV2 là mã số xác thực chủ thẻ (Card Verification Value 2) khi thực hiện các giao dịch thanh toán qua Internet. Đây là 3 chữ số nằm ở mặt sau thẻ."
+  },
+  {
+    "query": "Thẻ F@stAccess PIN bao nhiêu số? Tôi có thể đặt 5 số không?",
+    "reference": "PIN thẻ F@stAccess bắt buộc bao gồm 6 số. Không thể đặt PIN 5 số. Lưu ý không cung cấp mã PIN cho người khác, không dùng số CMND hay ngày sinh làm PIN."
+  },
+  {
+    "query": "Khóa thẻ TCB nhanh nhất bằng cách nào?",
+    "reference": "Quý khách thực hiện ngay một trong các cách sau: (1) Liên hệ DVKH Techcombank 24/7 số 1800 588 822, (2) Đăng nhập F@st i-bank để lập yêu cầu khóa thẻ vĩnh viễn hoặc tạm thời, hoặc (3) Khóa qua ứng dụng Techcombank Mobile tại mục Tài khoản và Thẻ."
+  },
+  {
+    "query": "Contactless có bị trừ tiền 2 lần không nếu tôi chạm thẻ 2 lần?",
+    "reference": "Không. Máy thanh toán Contactless được thiết kế chỉ xử lý 01 giao dịch cho 01 thẻ trong cùng 01 thời điểm. Mỗi giao dịch phải được hoàn tất hoặc hủy trước khi thực hiện giao dịch khác."
+  },
+  {
+    "query": "Thẻ Visa Platinum của tôi có được bảo hiểm du lịch không?",
+    "reference": "Có. Techcombank mua tặng bảo hiểm du lịch toàn cầu cho tất cả chủ thẻ Visa Platinum. Thời hạn bảo hiểm tương đương thời hạn sử dụng thẻ. Quyền lợi bao gồm bảo hiểm tử vong/thương tật tối đa 42 triệu VNĐ, hành lý tối đa 42 triệu VNĐ, và dịch vụ hỗ trợ khẩn cấp 24/7 qua International SOS."
+  },
+  {
+    "query": "Rút tiền bằng thẻ tín dụng Techcombank Visa ở ATM ngân hàng khác phí bao nhiêu?",
+    "reference": "Phí rút tiền mặt bằng thẻ tín dụng quốc tế Techcombank Visa tại ATM ngân hàng khác là 4% giá trị giao dịch, tối thiểu 100.000 đồng (đã bao gồm 10% VAT). Ngoài ra có thể phát sinh thêm phí từ ngân hàng chủ quản ATM."
+  },
+  {
+    "query": "Chương trình Cashback 1% quẹt là sướng là gì?",
+    "reference": "Đây là chương trình hoàn tiền 1% trên tổng giá trị thanh toán qua thẻ thanh toán Techcombank hàng tháng. Không giới hạn số tiền hoàn, không giới hạn lĩnh vực chi tiêu, không giới hạn số lượng khách hàng. Tiền hoàn từ ngày 20 đến ngày 30 của tháng tiếp theo."
+  },
+  {
+    "query": "Thẻ phụ tín dụng có hạn mức riêng không hay chung với thẻ chính?",
+    "reference": "Chủ thẻ phụ được sử dụng chung hạn mức với chủ thẻ chính. Hạn mức cụ thể do chủ thẻ chính yêu cầu nhưng không vượt quá hạn mức tín dụng ngân hàng đã cấp cho chủ thẻ chính."
+  },
+  {
+    "query": "Mình chuyển 1 tỷ qua 24/7 nhưng bạn mình báo nhận tiền muộn nhất ngày làm việc sau, tại sao?",
+    "reference": "Chuyển khoản nhanh 24/7 chỉ áp dụng cho giao dịch từ 50.000đ đến tối đa 500.000.000đ/giao dịch. Do số tiền 1 tỷ vượt hạn mức, hệ thống tự động chuyển sang hình thức chuyển liên ngân hàng thông thường (tối đa 1 ngày làm việc). Để nhận tiền ngay, cần chia nhỏ xuống dưới 500 triệu/giao dịch."
+  },
+  {
+    "query": "Muốn nâng hạn mức chuyển khoản lên 2 tỷ thì làm sao?",
+    "reference": "Hạn mức mặc định là 500 triệu/ngày trên Techcombank Mobile. Để nâng lên nhưng không quá 5 tỷ VNĐ, đăng nhập Techcombank Mobile để thay đổi hạn mức. Hạn mức mới có hiệu lực trong 30 ngày, sau đó tự động trở về mức mặc định 500 triệu/ngày."
+  },
+  {
+    "query": "Chuyển khoản qua QR khác gì so với chuyển thường?",
+    "reference": "Chuyển khoản thường cần nhập nhiều thông tin: số tài khoản, tên người nhận, ngân hàng, chi nhánh. Với QR code chỉ cần 1 mã QR là thực hiện được giao dịch mà không cần nhập thủ công, giảm thiểu sai sót."
+  },
+  {
+    "query": "Hạn mức chuyển tiền qua QR là bao nhiêu?",
+    "reference": "Hạn mức chuyển tiền bằng mã QR trên Techcombank Mobile theo quy định hạn mức chuyển tiền 24/7 của Techcombank, tức tối đa 500.000.000 VNĐ/giao dịch."
+  },
+  {
+    "query": "Dịch vụ Zero-fee của Techcombank gồm những gì?",
+    "reference": "Chương trình Zero-fee áp dụng cho toàn bộ khách hàng sử dụng dịch vụ ngân hàng điện tử Techcombank: miễn toàn bộ phí chuyển khoản (bao gồm chuyển liên ngân hàng, chuyển nhanh 24/7 và trong hệ thống), miễn phí thanh toán, miễn phí đăng ký và duy trì dịch vụ."
+  },
+  {
+    "query": "Tôi muốn chuyển khoản qua số điện thoại thì phải làm gì trước?",
+    "reference": "Để chuyển khoản qua số điện thoại, bạn cần liên kết số điện thoại với một trong các tài khoản thanh toán bằng cách chọn 'Liên kết số điện thoại' trong mục 'Cài đặt' trên Techcombank Mobile."
+  },
+  {
+    "query": "Sinh trắc học dùng để làm gì trong giao dịch ngân hàng?",
+    "reference": "Từ ngày 01/07/2024, Techcombank áp dụng xác thực sinh trắc học cho một số giao dịch nhằm đáp ứng tiêu chuẩn bảo mật của NHNN và bảo vệ tài sản khách hàng. Nếu thông tin khớp, giao dịch được thực hiện; nếu không khớp, hệ thống yêu cầu chụp lại."
+  },
+  {
+    "query": "Kiểm tra xem mình đã cập nhật sinh trắc học chưa ở đâu?",
+    "reference": "Trên Techcombank Mobile: Bước 1: Chọn biểu tượng trên cùng tay trái → Cài đặt → Thông tin cá nhân. Bước 2: Kiểm tra trường 'Thông tin sinh trắc học'. Nếu hiển thị 'Đã bổ sung' là thành công; nếu có thông báo 'Bổ sung thông tin sinh trắc học...' là chưa hoàn tất."
+  },
+  {
+    "query": "Điện thoại không có NFC thì cập nhật sinh trắc học bằng cách nào?",
+    "reference": "Nếu thiết bị không hỗ trợ NFC (đọc chip CCCD), hệ thống sẽ hiển thị thông báo 'Vui lòng ghé chi nhánh để bổ sung thông tin'. Khách hàng cần mang CCCD đến chi nhánh/phòng giao dịch Techcombank gần nhất để cập nhật."
+  },
+  {
+    "query": "Từ 01/01/2025 không cập nhật sinh trắc học thì có giao dịch được không?",
+    "reference": "Theo thông tư 17/2024/TT-NHNN, từ ngày 01/01/2025 khách hàng không thể thực hiện giao dịch trên Techcombank Mobile, Techcombank Online Banking và giao dịch thẻ nếu chưa cập nhật sinh trắc học."
+  },
+  {
+    "query": "Tôi mở tài khoản bằng CMND cũ, có cần ra ngân hàng để cập nhật CCCD khi làm sinh trắc học không?",
+    "reference": "Không cần ra ngân hàng nếu thiết bị hỗ trợ NFC. Techcombank hỗ trợ cập nhật thông tin CCCD ngay trên ứng dụng Techcombank Mobile khi bổ sung sinh trắc học. Đối với khách hàng CMT/CCCD cũ không hỗ trợ NFC, cần cập nhật tại quầy giao dịch."
+  },
+  {
+    "query": "Có nhờ người thân mang CMND đi cập nhật sinh trắc học hộ được không?",
+    "reference": "Không. Khách hàng cần sử dụng giấy tờ tùy thân của chính mình và tự thực hiện cập nhật. Techcombank chỉ hỗ trợ qua 2 kênh: Techcombank Mobile hoặc quầy giao dịch."
+  },
+  {
+    "query": "App Techcombank Mobile dùng được trên điện thoại Android mấy trở lên?",
+    "reference": "Techcombank Mobile hỗ trợ thiết bị iOS từ 14.0 trở lên và Android 7.0 trở lên. Không hỗ trợ thiết bị đã can thiệp hệ điều hành (jail break, rooted...)."
+  },
+  {
+    "query": "Mất điện thoại cài sẵn app TCB thì phải làm gì ngay?",
+    "reference": "Liên hệ ngay tổng đài 1800 588 822 hoặc đến CN/PGD Techcombank gần nhất để được hỗ trợ tạm khóa dịch vụ ngân hàng số."
+  },
+  {
+    "query": "Xóa app rồi cài lại trên điện thoại Android cũ có cần đăng ký lại thiết bị không?",
+    "reference": "Có. Trên Android, sau khi xóa và cài lại, cần gửi SMS theo cú pháp TCBT HUY SMARTOTP đến 8049 để gỡ thiết bị cũ, sau đó đăng ký thiết bị mới. Trên iOS thì chỉ cần đăng ký lại thiết bị là đủ."
+  },
+  {
+    "query": "Mã mở khóa app TCB dùng để làm gì?",
+    "reference": "Mã mở khóa bắt buộc phải tạo, dùng để đăng nhập ứng dụng và xác thực giao dịch."
+  },
+  {
+    "query": "Nhập sai mã mở khóa quá nhiều lần thì bị gì?",
+    "reference": "Nếu nhập sai quá 3 lần, bạn phải đăng nhập lại bằng tên đăng nhập và mật khẩu, sau đó đăng ký lại thiết bị bằng cách tạo mã mở khóa mới và thiết lập lại sinh trắc học."
+  },
+  {
+    "query": "App TCB Mobile có miễn phí không?",
+    "reference": "Việc sử dụng Techcombank Mobile hoàn toàn miễn phí."
+  },
+  {
+    "query": "Thông báo biến động số dư qua app có ưu điểm gì so với SMS?",
+    "reference": "Thông báo qua app hoàn toàn miễn phí, không cần roaming khi ra nước ngoài, dễ quản lý và bảo mật hơn. SMS cần roaming khi ở nước ngoài và có tính phí theo gói dịch vụ."
+  },
+  {
+    "query": "Thanh toán QR của TCB chấp nhận ở những đơn vị nào?",
+    "reference": "Tính năng thanh toán QR của Techcombank được chấp nhận tại tất cả các đơn vị thanh toán của VN PAY và mPOS."
+  },
+  {
+    "query": "Ngày sao kê thẻ tín dụng rơi vào Chủ nhật thì tính vào ngày nào?",
+    "reference": "Nếu ngày sao kê trùng thứ 7, Chủ nhật hoặc ngày lễ, ngày sao kê sẽ được chuyển lên trước 02 ngày làm việc."
+  },
+  {
+    "query": "Có thể giữ cùng lúc cả thẻ Visa và MasterCard Techcombank không?",
+    "reference": "Có. Khách hàng có thể duy trì cùng lúc 2 loại thẻ tín dụng. Tuy nhiên tổng hạn mức cả hai không vượt quá hạn mức tối đa Techcombank cấp cho khách hàng."
+  },
+  {
+    "query": "Chuyển khoản thanh toán thẻ tín dụng lúc 11 giờ đêm ngày đến hạn có bị phạt không?",
+    "reference": "Có. Việc thanh toán chỉ tính thành công khi hệ thống Techcombank ghi nhận được giao dịch. Số tiền nhận sau giờ làm việc của Techcombank sẽ được tính vào ngày làm việc kế tiếp, tức là trễ hạn."
+  },
+  {
+    "query": "Thẻ tín dụng Techcombank Spark là thẻ hạng gì?",
+    "reference": "Thẻ tín dụng quốc tế Techcombank Spark thuộc hạng Platinum của MasterCard, hạn mức tín dụng từ 50 triệu VNĐ trở lên."
+  },
+  {
+    "query": "Kích hoạt thẻ tín dụng Techcombank Spark bằng cách nào?",
+    "reference": "Có 2 cách: (1) Soạn tin nhắn TCBKHT [6 số đầu][4 số cuối của thẻ] gửi đến 8049. Ví dụ: TCBKHT 422075 1234. (2) Truy cập ứng dụng F@st Mobile, vào mục Thẻ để kích hoạt."
+  },
+  {
+    "query": "Thanh toán dư nợ thẻ tín dụng có những cách nào?",
+    "reference": "Có 4 cách: (1) Ghi nợ tự động qua F@st i-Bank, (2) Chuyển khoản qua F@st i-Bank/F@st Mobile/ATM, (3) Nộp tiền mặt hoặc chuyển khoản tại quầy, (4) Chuyển khoản từ ngân hàng khác với thông tin: họ tên và số tài khoản thẻ tín dụng."
+  },
+  {
+    "query": "Mua bảo hiểm xe ô tô tại TCB có được giảm phí không?",
+    "reference": "Có. Khách hàng mua bảo hiểm xe ô tô qua Techcombank được hưởng phí ưu đãi tới 30% so với giá thị trường, kèm 3 quyền lợi mở rộng miễn phí: chọn cơ sở sửa chữa, thay mới không khấu hao, bảo hiểm động cơ do thủy kích."
+  },
+  {
+    "query": "Khi tai nạn xe, gọi cho Techcombank hay công ty bảo hiểm?",
+    "reference": "Khách hàng gọi đường dây nóng của Công ty Bảo hiểm (số ghi trong giấy chứng nhận bảo hiểm) hoặc gọi đường dây nóng Techcombank để được hướng dẫn và hỗ trợ."
+  },
+  {
+    "query": "Vay mua nhà có bắt buộc mua bảo hiểm nhà không?",
+    "reference": "Có. Bảo hiểm nhà tư nhân là điều kiện bắt buộc trong hồ sơ vay mua nhà thế chấp tại Techcombank, với yêu cầu thời hạn hợp đồng bảo hiểm tối thiểu một năm trở lên."
+  },
+  {
+    "query": "Bảo hiểm tín dụng cá nhân sẽ thanh toán nợ thay khi nào?",
+    "reference": "Khi người được bảo hiểm không còn khả năng tạo ra thu nhập do tai nạn hoặc bệnh tật dẫn đến Thương tật toàn bộ vĩnh viễn hoặc Tử vong, Công ty Bảo hiểm sẽ thay mặt thanh toán toàn bộ dư nợ còn lại của khoản vay cho Techcombank."
+  },
+  {
+    "query": "Mua bảo hiểm tín dụng có phải đi khám sức khỏe không?",
+    "reference": "Phần lớn không phải. Khách hàng chỉ cần trả lời trung thực một số câu hỏi về sức khỏe. Chỉ một số trường hợp đặc biệt mới được mời đi khám, và dịch vụ khám hoàn toàn miễn phí."
+  },
+  {
+    "query": "Số tiền tối thiểu mua Chứng chỉ Quỹ là bao nhiêu?",
+    "reference": "Số tiền tối thiểu khi mua Chứng chỉ Quỹ là 10.000 VNĐ."
+  },
+  {
+    "query": "Chứng chỉ Quỹ mở có giao dịch trên sàn chứng khoán không?",
+    "reference": "Không. Chứng chỉ Quỹ mở không niêm yết trên thị trường chứng khoán. Khi có nhu cầu giao dịch, khách hàng thực hiện tại các Đại lý phân phối được chỉ định của quỹ."
+  },
+  {
+    "query": "Bán Chứng chỉ Quỹ TCBF nhận tiền sau bao nhiêu ngày?",
+    "reference": "Khách hàng nhận tiền ngay trong ngày giao dịch T khi bán Chứng chỉ Quỹ TCBF."
+  },
+  {
+    "query": "Quỹ FlexiCASH phù hợp cho ai?",
+    "reference": "Quỹ FlexiCA$H phù hợp cho khách hàng đầu tư ngắn hạn dưới 3 tháng, hướng tới lãi suất kỳ vọng 6%/năm. Quỹ đầu tư chủ yếu vào trái phiếu chính phủ, trái phiếu ngân hàng, chứng chỉ tiền gửi với tính thanh khoản cao."
+  },
+  {
+    "query": "Trái tức sinh lời là gì?",
+    "reference": "Là chương trình tái đầu tư tự động: lãi coupon trái phiếu khách hàng nhận định kỳ sẽ được TCBS tự động đặt mua chứng chỉ quỹ TCBF/TCEF/TCFF để sinh lãi kép mà không cần khách hàng thao tác."
+  },
+  {
+    "query": "Mua trái phiếu iBond giá trị tối thiểu bao nhiêu?",
+    "reference": "Giá trị tối thiểu của một hợp đồng mua bán trái phiếu doanh nghiệp iBond là 1 triệu VNĐ mệnh giá trái phiếu."
+  },
+  {
+    "query": "Mở tài khoản eKYC trên app có hạn mức giao dịch bao nhiêu?",
+    "reference": "Tài khoản mở theo phương thức eKYC có hạn mức 100 triệu đồng/tháng. Nếu mở thêm thẻ Debit trong luồng đăng ký: hạn mức thẻ 40 triệu/tháng và hạn mức tài khoản còn lại 60 triệu/tháng."
+  },
+  {
+    "query": "Mở tài khoản tiền gửi online số tiền tối thiểu là bao nhiêu?",
+    "reference": "Số tiền tối thiểu để mở tài khoản tiền gửi online trên Techcombank Mobile là 1 triệu đồng."
+  },
+  {
+    "query": "Gửi tiết kiệm tại quầy có quản lý được trên app không?",
+    "reference": "Có. Các sổ tiết kiệm mở tại quầy đều hiển thị và có thể quản lý trên ứng dụng Techcombank Mobile. Tuy nhiên không thể tất toán sổ tiết kiệm mở tại quầy qua ứng dụng — cần đến CN/PGD."
+  },
+  {
+    "query": "Mở tài khoản chứng khoán trên TCB Mobile mất phí không?",
+    "reference": "Không. Tính năng mở tài khoản chứng khoán trên ứng dụng Techcombank Mobile hoàn toàn miễn phí. Chỉ cần có tài khoản thanh toán tại Techcombank và chuẩn bị CMND/CCCD để upload."
+  },
+  {
+    "query": "Người Việt đang ở nước ngoài có mở được tài khoản eKYC không?",
+    "reference": "Không. Tài khoản mở theo hình thức eKYC hiện chỉ áp dụng cho công dân Việt Nam cư trú tại Việt Nam. Trường hợp đang ở nước ngoài, Techcombank khuyến nghị không đăng ký theo hình thức này."
+  }
+]
