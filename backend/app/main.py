@@ -9,10 +9,9 @@ app = FastAPI(
     description="Agentic RAG chatbot cho Techcombank"
 )
 
-# CORS — cho phép frontend gọi API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      # production: thay bằng domain cụ thể
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -39,5 +39,5 @@ def get_vectorstore() -> PineconeVectorStore:
         embedding=CustomEmbedding(),
     )
 
-def similarity_search(query: str, k: int = 3) -> list:
-    return get_vectorstore().similarity_search(query, k=k)
+def similarity_search(query: str, k: int = 5) -> list:
+    return get_vectorstore().similarity_search_with_score(query, k=k)

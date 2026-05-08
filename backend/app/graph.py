@@ -1,5 +1,4 @@
 from langgraph.graph import StateGraph, START, END
-from typing import TypedDict
 from app.nodes import (
     node_router, node_retrieve_qna, node_web_search,
     node_check_relevance, node_augment, node_generate, node_chitchat
@@ -20,13 +19,13 @@ def relevance_decision(state: GraphState) -> str:
 def build_graph():
     g = StateGraph(GraphState)
 
-    g.add_node("Router",                   node_router)
-    g.add_node("Retrieve_QnA",             node_retrieve_qna)
-    g.add_node("Web_Search",               node_web_search)
+    g.add_node("Router", node_router)
+    g.add_node("Retrieve_QnA", node_retrieve_qna)
+    g.add_node("Web_Search", node_web_search)
     g.add_node("Relevant_Context_Checker", node_check_relevance)
-    g.add_node("Augment",                  node_augment)
-    g.add_node("Generate",                 node_generate)
-    g.add_node("Chitchat",                 node_chitchat)
+    g.add_node("Augment", node_augment)
+    g.add_node("Generate", node_generate)
+    g.add_node("Chitchat", node_chitchat)
 
     g.add_edge(START, "Router")
     g.add_conditional_edges("Router", route_decision, {

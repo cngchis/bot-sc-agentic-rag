@@ -1,6 +1,7 @@
 import os
+import torch
 from dotenv import load_dotenv
-from langchain_ollama import ChatOllama
+from openai import OpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 
 load_dotenv()
@@ -17,17 +18,35 @@ def format_docs(docs: list) -> str:
 def log_node(name: str, state: dict):
     print(f"[NODE] {name}")
 
-_llm = ChatOllama(
-    model="llama3.1:8b",
-    temperature=0.2,
-    num_ctx=4096,
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY")
 )
+
+MODEL_NAME = "gpt-4o-mini"
 
 _sessions: dict[str, list] = {}
 
 def _invoke_with_fallback(messages) -> str:
-    response = _llm.invoke(messages)
-    return response.content
+    formatted = []
+
+    for m in messages:
+        if isinstance(m, HumanMessage):
+            role = "user"
+        else:
+            role = "assistant"
+
+        formatted.append({
+            "role": role,
+            "content": m.content
+        })
+
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=formatted,
+        temperature=0.2,
+    )
+
+    return response.choices[0].message.content
     
 def get_session_history(session_id: str) -> list:
     if session_id not in _sessions:

@@ -23,14 +23,18 @@ Context:
 Question: {query}
 Answer:"""
 
-def retrieve_context(query: str) -> tuple[str, str]:
-    """Trả về (context, source)."""
-    docs = similarity_search(query, k=3)
-    context = format_docs(docs)
-    return context, "Techcombank Support QA Collection"
+def retrieve_context(query: str):
+    docs = similarity_search(query, k=5)
+
+    top_doc, top_score = docs[0]
+
+    print(f"[Top Result] → {top_doc.metadata['source']} (Score: {top_score:.4f})")
+    context = format_docs([doc for doc, _ in docs])
+
+    return context, "Techcombank Support QA Collection", top_score
 
 def check_relevance(query: str, context: str) -> str:
-    """Trả về 'Yes' hoặc 'No'."""
+    """Return Yes or No."""
     result = get_llm_response(
         RELEVANCE_PROMPT.format(query=query, context=context)
     ).strip()
